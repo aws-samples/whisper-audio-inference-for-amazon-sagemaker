@@ -4,7 +4,7 @@ This repository show's how to use [SageMaker's real-time inference endpoints](ht
 
 ## Getting Started
 
-In order to run the example in this repo, navigate to the [notebook](./whisper-inference-deploy.ipynb). This notebook can be run end-to-end in [Sagemaker Studio](https://aws.amazon.com/sagemaker/studio/). We recommend using the Data Science image, the Python 3 kernel, and a ml.m5.large instance inside of SageMaker Studio to run the notebook. Running through the notebook you will be able to...
+In order to run the example in this repo, navigate to the [notebook](./whisper-inference-deploy.ipynb). This notebook can be run end-to-end in [Sagemaker Studio](https://aws.amazon.com/sagemaker/studio/). We recommend using the Python 3 (Data Science 3.0) with Python 3.10, and a ml.m5.large instance inside of SageMaker Studio to run the notebook. Running through the notebook you will be able to...
 
 1. Save a serialized Whisper model to Amazon S3
 2. Create a SageMaker model object from this serialized model
